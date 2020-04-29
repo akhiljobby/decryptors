@@ -1,6 +1,6 @@
-# gpodecrypt.py
+# cpassword_decrypt.py
 
-GPOdecrypt.py can be used to decode base64 cpassword.
+cpassword_decrypt.py can be used to decode base64 cpassword.
 
 **iv:**       '\x00' * 16  
 **key:**      b'\x4e\x99\x06\xe8\xfc\xb6\x6c\xc9\xfa\xf4\x93\x10\x62\x0f\xfe\xe8' \  
