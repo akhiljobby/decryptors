@@ -1,4 +1,4 @@
-# decryptors
+# gpodecrypt.py
 
 GPOdecrypt.py can be used to decode base64 cpassword.
 
