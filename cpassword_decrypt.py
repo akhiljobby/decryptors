@@ -3,14 +3,10 @@
 #python3
 
 import base64
-import argparse
-import os
-
-from xml.etree import ElementTree
 from Crypto.Cipher import AES
 
 
-def gpodecrypt(cpassword):
+def cpassword_decrypt(cpassword):
     
     passpadding = '=' * (4 - len(cpassword) % 4)
     password = cpassword + passpadding
